@@ -13,4 +13,10 @@ public class ProductSteps extends BaseClass {
 		driver.findElement(By.name("add-to-cart-sauce-labs-backpack")).click();
 
 	}
+
+	@When("user click on Sauce Labs bike light product")
+	public void userClickOnSauceLabsBikeLightProduct() {
+		driver.findElement(By.name("add-to-cart-sauce-labs-bike-light")).click();
+
+	}
 }

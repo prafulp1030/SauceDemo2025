@@ -7,3 +7,4 @@ Feature: Test Sauce demo Application
 
   Scenario: validate the add to products
     When user click on Sauce Labs Backpack product
+    When user click on Sauce Labs bike light product

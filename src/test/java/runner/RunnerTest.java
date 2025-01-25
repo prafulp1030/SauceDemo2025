@@ -15,4 +15,5 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 		)
 public class RunnerTest extends AbstractTestNGCucumberTests{
 
+	
 }
