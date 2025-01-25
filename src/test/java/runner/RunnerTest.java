@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 @CucumberOptions(
 		features="src/test/java/FeatureFiles",
 		glue= {"stepDefinitions"},
-		dryRun=true,
+		dryRun=false,
 		monochrome=true,
 		snippets= SnippetType.CAMELCASE
 		
